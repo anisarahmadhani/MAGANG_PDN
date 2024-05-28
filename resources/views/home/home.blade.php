@@ -1,14 +1,14 @@
 @extends('home.template')
 
 @section('title')
-Halaman Home
+Home
 @endsection
 
 @section('content')
   <div class="flex justify-between">
     <div class="text-xl font-bold">Data User</div>
     <div>
-        <a href="{{route('tambah')}}" class="bg-blue-500 hover:bg-blue-300 text-white p-2 border rounded-md"> Tambah Data</a>
+        <a href="{{route('tambah')}}" class="bg-blue-500 hover:bg-blue-300 text-white p-2 border rounded-md"> Tambah Data User</a>
     </div>
   </div>
 
